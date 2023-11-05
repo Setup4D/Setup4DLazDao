@@ -9,7 +9,7 @@ uses
     setup4dlazdao.impl.param,
 
     setup4dlazdao.impl.connection.mysql,
-    setup4dlazdao.impl.connection.pg;
+    setup4dlazdao.impl.connection.pg, setup4dlazdao.impl.helper.database;
 
 begin
 

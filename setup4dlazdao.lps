@@ -9,9 +9,53 @@
         <Filename Value="setup4dlazdao.lpr"/>
         <IsPartOfProject Value="True"/>
         <CursorPos X="5" Y="12"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\contains\impl\connection\setup4dlazdao.impl.connection.mysql.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="19"/>
+        <CursorPos X="25" Y="69"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\contains\impl\param\setup4dlazdao.impl.param.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="22"/>
+        <CursorPos X="77" Y="55"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\contains\interf\setup4dlazdao.interf.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="8"/>
+        <CursorPos Y="3"/>
+        <UsageCount Value="22"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\contains\impl\connection\setup4dlazdao.impl.connection.pg.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="29" Y="19"/>
         <UsageCount Value="21"/>
         <Loaded Value="True"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit>
+      <Unit>
+        <Filename Value="src\contains\impl\helper\setup4dlazdao.impl.helper.database.pas"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="31"/>
+        <CursorPos Y="20"/>
+        <UsageCount Value="21"/>
+        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="src\impl\connection\setup4dlazdao.impl.connection.mysql.pas"/>
@@ -35,65 +79,6 @@
         <TopLine Value="7"/>
         <CursorPos Y="41"/>
         <UsageCount Value="20"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit>
-      <Unit>
-        <Filename Value="src\contains\impl\connection\setup4dlazdao.impl.connection.mysql.pas"/>
-        <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="-1"/>
-        <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="21"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit>
-      <Unit>
-        <Filename Value="src\contains\impl\param\setup4dlazdao.impl.param.pas"/>
-        <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <WindowIndex Value="-1"/>
-        <TopLine Value="-1"/>
-        <CursorPos X="-1" Y="-1"/>
-        <UsageCount Value="21"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit>
-      <Unit>
-        <Filename Value="src\contains\interf\setup4dlazdao.interf.pas"/>
-        <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="7"/>
-        <CursorPos Y="41"/>
-        <UsageCount Value="21"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit>
-      <Unit>
-        <Filename Value="src\contains\interf\setup4dlazdao.interf.pas"/>
-        <IsPartOfProject Value="True"/>
-        <EditorIndex Value="3"/>
-        <TopLine Value="8"/>
-        <CursorPos Y="3"/>
-        <UsageCount Value="21"/>
-        <Loaded Value="True"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit>
-      <Unit>
-        <Filename Value="src\contains\impl\connection\setup4dlazdao.impl.connection.mysql.pas"/>
-        <IsPartOfProject Value="True"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="19"/>
-        <CursorPos X="25" Y="69"/>
-        <UsageCount Value="21"/>
-        <Loaded Value="True"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
-      </Unit>
-      <Unit>
-        <Filename Value="src\contains\impl\param\setup4dlazdao.impl.param.pas"/>
-        <IsPartOfProject Value="True"/>
-        <EditorIndex Value="4"/>
-        <TopLine Value="22"/>
-        <CursorPos X="77" Y="55"/>
-        <UsageCount Value="21"/>
-        <Loaded Value="True"/>
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
@@ -137,18 +122,15 @@
         <DefaultSyntaxHighlighter Value="Delphi"/>
       </Unit>
       <Unit>
-        <Filename Value="src\contains\impl\connection\setup4dlazdao.impl.connection.pg.pas"/>
-        <IsPartOfProject Value="True"/>
-        <IsVisibleTab Value="True"/>
-        <EditorIndex Value="2"/>
-        <TopLine Value="31"/>
-        <CursorPos X="41" Y="39"/>
-        <UsageCount Value="20"/>
-        <Loaded Value="True"/>
-        <DefaultSyntaxHighlighter Value="Delphi"/>
+        <Filename Value="C:\Lazarus\fpcsrc\packages\rtl-objpas\src\inc\rtti.pp"/>
+        <UnitName Value="Rtti"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="352"/>
+        <CursorPos X="3" Y="216"/>
+        <UsageCount Value="10"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="4">
+    <JumpHistory HistoryIndex="7">
       <Position>
         <Filename Value="setup4dlazdao.lpr"/>
         <Caret Line="11" Column="5"/>
@@ -158,16 +140,28 @@
         <Caret Line="71" Column="30"/>
       </Position>
       <Position>
-        <Filename Value="src\contains\interf\setup4dlazdao.interf.pas"/>
-        <Caret Line="3" TopLine="8"/>
-      </Position>
-      <Position>
         <Filename Value="src\contains\impl\connection\setup4dlazdao.impl.connection.mysql.pas"/>
         <Caret Line="80" Column="7" TopLine="46"/>
       </Position>
       <Position>
         <Filename Value="src\contains\impl\connection\setup4dlazdao.impl.connection.pg.pas"/>
         <Caret Line="2"/>
+      </Position>
+      <Position>
+        <Filename Value="src\contains\impl\helper\setup4dlazdao.impl.helper.database.pas"/>
+        <Caret Column="41"/>
+      </Position>
+      <Position>
+        <Filename Value="src\contains\impl\helper\setup4dlazdao.impl.helper.database.pas"/>
+        <Caret Line="9" Column="44"/>
+      </Position>
+      <Position>
+        <Filename Value="src\contains\impl\helper\setup4dlazdao.impl.helper.database.pas"/>
+        <Caret Line="33" Column="29" TopLine="21"/>
+      </Position>
+      <Position>
+        <Filename Value="src\contains\impl\connection\setup4dlazdao.impl.connection.pg.pas"/>
+        <Caret Line="39" Column="41"/>
       </Position>
     </JumpHistory>
     <RunParams>

@@ -14,9 +14,9 @@ uses
 
 type
 
-  { TSetup4DLazDaoConnectionMySQL }
+  { TSetup4DLazDaoConnectionPG }
 
-  TSetup4DLazDaoConnectionMySQL = class(TInterfacedObject, IConnection)
+  TSetup4DLazDaoConnectionPG = class(TInterfacedObject, IConnection)
   private
     FConnection: TZConnection;
     procedure OnBelforeConnect(Sender: TObject);
@@ -32,9 +32,9 @@ type
 
 implementation
 
-{ TSetup4DLazDaoConnectionMySQL }
+{ TSetup4DLazDaoConnectionPG }
 
-procedure TSetup4DLazDaoConnectionMySQL.OnBelforeConnect(Sender: TObject);
+procedure TSetup4DLazDaoConnectionPG.OnBelforeConnect(Sender: TObject);
 begin
   FConnection.Protocol    := 'postgresql';
   FConnection.LoginPrompt := False;
@@ -45,12 +45,12 @@ begin
   FConnection.Password    := TSetup4DLazDaoParam.GetInstance.Password;
 end;
 
-function TSetup4DLazDaoConnectionMySQL.GetConnection: TZConnection;
+function TSetup4DLazDaoConnectionPG.GetConnection: TZConnection;
 begin
   Result := FConnection;
 end;
 
-function TSetup4DLazDaoConnectionMySQL.GetQuery: TZQuery;
+function TSetup4DLazDaoConnectionPG.GetQuery: TZQuery;
 begin
   Result := TZQuery.Create(nil);
   Result.Connection := FConnection;
@@ -58,13 +58,13 @@ begin
   Result.SQL.Clear;
 end;
 
-constructor TSetup4DLazDaoConnectionMySQL.Create;
+constructor TSetup4DLazDaoConnectionPG.Create;
 begin
   FConnection := TZConnection.Create(nil);
   FConnection.BeforeConnect := OnBelforeConnect;
 end;
 
-destructor TSetup4DLazDaoConnectionMySQL.Destroy;
+destructor TSetup4DLazDaoConnectionPG.Destroy;
 begin
   FConnection.Connected := False;
   FreeAndNil(FConnection);
@@ -72,7 +72,7 @@ begin
   inherited Destroy;
 end;
 
-class function TSetup4DLazDaoConnectionMySQL.New: IConnection;
+class function TSetup4DLazDaoConnectionPG.New: IConnection;
 begin
   Result := Self.Create;
 end;
